@@ -1,0 +1,7 @@
+id,position_id:id,tax_src_id:id,tax_dest_id:id
+l10n_id_position_tax_1,l10n_id_position_1,ST0,ST0
+,l10n_id_position_1,PT0,PT0
+l10n_id_position_tax_2,l10n_id_position_2,ST1,ST1
+,l10n_id_position_2,PT1,PT1
+l10n_id_position_tax_3,l10n_id_position_3,ST2,ST2
+,l10n_id_position_3,PT2,PT2

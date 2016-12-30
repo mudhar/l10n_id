@@ -1,0 +1,283 @@
+id,code,name,parent_id:id,type,user_type:id,reconcile
+ID0,0,Company,,view,account_type_view,FALSE
+aktiva,1000,AKTIVA,ID0,view,account_type_asset_view,FALSE
+cash_expenditure,1110,KAS,aktiva,view,account_type_asset_view,FALSE
+1111,1111,[UD] KAS BLUSTRU,cash_expenditure,view,account_type_asset_view,FALSE
+111111,111111,[UD] KAS SETORAN BLUSTRU,1111,liquidity,account_type_cash,FALSE
+111112,111112,[UD] KAS BESAR BLUSTRU,1111,liquidity,account_type_cash,FALSE
+111113,111113,[UD] KAS KECIL BLUSTRU,1111,liquidity,account_type_cash,FALSE
+1112,1112,[UD] KAS LTC,cash_expenditure,view,account_type_asset_view,FALSE
+111211,111211,[UD] KAS SETORAN LTC,1112,liquidity,account_type_cash,FALSE
+111212,111212,[UD] KAS BESAR LTC,1112,liquidity,account_type_cash,FALSE
+111213,111213,[UD] KAS KECIL LTC,1112,liquidity,account_type_cash,FALSE
+1113,1113,[UD] KAS INDUSTRI,cash_expenditure,view,account_type_asset_view,FALSE
+111311,111311,[UD] KAS SETORAN INDUSTRI,1113,liquidity,account_type_cash,FALSE
+111312,111312,[UD] KAS BESAR INDUSTRI,1113,liquidity,account_type_cash,FALSE
+111313,111313,[UD] KAS KECIL INDUSTRI,1113,liquidity,account_type_cash,FALSE
+1114,1114,[PT] KAS PT SMJ,cash_expenditure,view,account_type_asset_view,FALSE
+111411,111411,[PT] KAS SETORAN SMJ,1114,liquidity,account_type_cash,FALSE
+1120,1120,BANK,aktiva,view,account_type_asset_view,FALSE
+1121,1121,[UD] REKENING BLUSTRU,1120,view,account_type_asset_view,FALSE
+112111,112111,[UD] BBA 7887,1121,liquidity,account_type_bank,FALSE
+112112,112112,[UD] BLUSTRU BCA,1121,liquidity,account_type_bank,FALSE
+112113,112113,[UD] BLUSTRU D.BCA,1121,liquidity,account_type_bank,FALSE
+112114,112114,[UD] BLUSTRU MANDIRI,1121,liquidity,account_type_bank,FALSE
+112115,112115,[UD] BLUSTRU D.MANDIRI,1121,liquidity,account_type_bank,FALSE
+112116,112116,[UD] INDUSTRI D.BCA,1121,liquidity,account_type_bank,FALSE
+1122,1122,[UD] REKENING LTC,1120,view,account_type_asset_view,FALSE
+112211,112211,[UD] LTC BCA,1122,liquidity,account_type_bank,FALSE
+112212,112212,[UD] LTC D.BCA,1122,liquidity,account_type_bank,FALSE
+112213,112213,[UD] LTC MANDIRI,1122,liquidity,account_type_bank,FALSE
+112214,112214,[UD] LTC D.MANDIRI,1122,liquidity,account_type_bank,FALSE
+deposit_expenditure,1130,DEPOSITO,aktiva,view,account_type_asset_view,FALSE
+1131,1131,[UD] DEPOSITO,deposit_expenditure,view,account_type_asset_view,FALSE
+113111,113111,[UD] DEPOSITO,1131,liquidity,account_type_bank,FALSE
+1140,1140,OUTSTANDING CEK/GIRO,aktiva,view,account_type_asset_view,FALSE
+1141,1141,[UD] OUTSTANDING CEK/GIRO ,1140,view,account_type_asset_view,FALSE
+114111,114111,[UD] OUTSTANDING CEK/GIRO MASUK,1141,liquidity,account_type_bank,FALSE
+114112,114112,[UD] OUTSTANDING CEK/GIRO KELUAR,1141,liquidity,account_type_bank,FALSE
+1142,1142,[PT] OUTSTANDING CEK/GIRO ,1140,view,account_type_asset_view,FALSE
+114211,114211,[PT] OUTSTANDING CEK/GIRO MASUK,1142,liquidity,account_type_bank,FALSE
+114212,114212,[PT] OUTSTANDING CEK/GIRO KELUAR,1142,liquidity,account_type_bank,FALSE
+1150,1150,ADVANCE,aktiva,view,account_type_asset_view,FALSE
+1151,1151,[UD] ADVANCE ,1150,view,account_type_asset_view,FALSE
+115111,115111,[UD] KASBON KARYAWAN,1151,other,account_type_bank,FALSE
+115112,115112,[UD] UANG MUKA PEMBELIAN,1151,other,account_type_bank,FALSE
+1152,1152,[PT] ADVANCE ,1150,view,account_type_asset_view,FALSE
+115211,115211,[PT] KASBON KARYAWAN,1152,other,account_type_bank,FALSE
+115212,115212,[PT] UANG MUKA PEMBELIAN,1152,other,account_type_bank,FALSE
+account_receivable,1160,PIUTANG,aktiva,view,account_type_asset_view,FALSE
+1161,1161,[UD] PIUTANG ,account_receivable,view,account_type_asset_view,FALSE
+116111,116111,[UD] PIUTANG DAGANG,1161,receivable,account_type_receivable,TRUE
+1162,1162,[PT] PIUTANG ,account_receivable,view,account_type_asset_view,FALSE
+116211,116211,[PT] PIUTANG DAGANG,1162,receivable,account_type_receivable,TRUE
+1170,1170,PERSEDIAAN BARANG,aktiva,view,account_type_asset_view,FALSE
+1171,1171,[UD] PERSEDIAAN BARANG ,1170,view,account_type_asset_view,FALSE
+117111,117111,[UD] PERSEDIAAN BARANG JADI,1171,other,account_type_current_assets,FALSE
+117112,117112,[UD] PERSEDIAAN BARANG DALAM PROSES/TRANSIT,1171,other,account_type_current_assets,FALSE
+1172,1172,[PT] PERSEDIAAN BARANG ,1170,view,account_type_asset_view,FALSE
+117211,117211,[PT] PERSEDIAAN BARANG JADI,1172,other,account_type_current_assets,FALSE
+117212,117212,[PT] PERSEDIAAN BARANG DALAM PROSES/TRANSIT,1172,other,account_type_current_assets,FALSE
+1180,1180,BIAYA DIBAYAR DIMUKA,aktiva,view,account_type_asset_view,FALSE
+1181,1181,[UD] BIAYA DIBAYAR DIMUKA ,1180,view,account_type_asset_view,FALSE
+118111,118111,[UD] SEWA DIBAYAR DIMUKA,1181,other,account_type_current_assets,FALSE
+118112,118112,[UD] ASURANSI DIBAYAR DIMUKA,1181,other,account_type_current_assets,FALSE
+1182,1182,[PT] BIAYA DIBAYAR DIMUKA ,1180,view,account_type_asset_view,FALSE
+118211,118211,[PT] SEWA DIBAYAR DIMUKA,1182,other,account_type_current_assets,FALSE
+118212,118212,[PT] ASURANSI DIBAYAR DIMUKA,1182,other,account_type_current_assets,FALSE
+prepaid_tax,1190,PREPAID TAX,aktiva,view,account_type_asset_view,FALSE
+119111,119111,[PT] PPN MASUKAN,prepaid_tax,other,account_type_current_assets,FALSE
+119112,119112,[PT] PPH 4(2),prepaid_tax,other,account_type_current_assets,FALSE
+119113,119113,[PT] PPH 21,prepaid_tax,other,account_type_current_assets,FALSE
+119114,119114,[PT] PPH 22,prepaid_tax,other,account_type_current_assets,FALSE
+119115,119115,[PT] PPH 23,prepaid_tax,other,account_type_current_assets,FALSE
+119116,119116,[PT] PPH 25,prepaid_tax,other,account_type_current_assets,FALSE
+1210,1210,ASSET,aktiva,view,account_type_asset_view,FALSE
+1211,1211,[UD] ASSET ,1210,view,account_type_asset_view,FALSE
+121111,121111,[UD] TANAH ,1211,other,account_type_current_assets,FALSE
+121112,121112,[UD] BANGUNAN ,1211,other,account_type_current_assets,FALSE
+121113,121113,[UD] KENDARAAN ,1211,other,account_type_current_assets,FALSE
+121114,121114,[UD] MESIN ,1211,other,account_type_current_assets,FALSE
+121115,121115,[UD] PERALATAN ,1211,other,account_type_current_assets,FALSE
+121116,121116,[UD] INVENTARIS ,1211,other,account_type_current_assets,FALSE
+1212,1212,[PT] ASSET ,1210,view,account_type_asset_view,FALSE
+121211,121211,[PT] TANAH ,1212,other,account_type_current_assets,FALSE
+121212,121212,[PT] BANGUNAN ,1212,other,account_type_current_assets,FALSE
+121213,121213,[PT] KENDARAAN ,1212,other,account_type_current_assets,FALSE
+121214,121214,[PT] MESIN ,1212,other,account_type_current_assets,FALSE
+121215,121215,[PT] PERALATAN ,1212,other,account_type_current_assets,FALSE
+121216,121216,[PT] INVENTARIS ,1212,other,account_type_current_assets,FALSE
+1220,1220,AKUMULASI PENYUSUTAN ,aktiva,view,account_type_asset_view,FALSE
+1221,1221,[UD] AKUMULASI PENYUSUTAN ,1220,view,account_type_asset_view,FALSE
+122111,122111,[UD] AKUMULASI PENYUSUTAN BANGUNAN,1221,other,account_type_current_assets,FALSE
+122112,122112,[UD] AKUMULASI PENYUSUTAN KENDARAAN,1221,other,account_type_current_assets,FALSE
+122113,122113,[UD] AKUMULASI PENYUSUTAN MESIN,1221,other,account_type_current_assets,FALSE
+122114,122114,[UD] AKUMULASI PENYUSUTAN PERALATAN,1221,other,account_type_current_assets,FALSE
+122115,122115,[UD] AKUMULASI PENYUSUTAN INVENTARIS,1221,other,account_type_current_assets,FALSE
+1222,1222,[PT] AKUMULASI PENYUSUTAN ,1220,view,account_type_asset_view,FALSE
+122211,122211,[PT] AKUMULASI PENYUSUTAN BANGUNAN,1222,other,account_type_current_assets,FALSE
+122212,122212,[PT] AKUMULASI PENYUSUTAN KENDARAAN,1222,other,account_type_current_assets,FALSE
+122213,122213,[PT] AKUMULASI PENYUSUTAN MESIN,1222,other,account_type_current_assets,FALSE
+122214,122214,[PT] AKUMULASI PENYUSUTAN PERALATAN,1222,other,account_type_current_assets,FALSE
+122215,122215,[PT] AKUMULASI PENYUSUTAN INVENTARIS,1222,other,account_type_current_assets,FALSE
+liability,2000,PASSIVA,ID0,view,account_type_liability_view,FALSE
+account_payable,2110,HUTANG,liability,view,account_type_liability_view,FALSE
+2111,2111,[UD] HUTANG ,account_payable,view,account_type_liability_view,FALSE
+211111,211111,[UD] HUTANG DAGANG,2111,payable,account_type_payable,FALSE
+211112,211112,[UD] HUTANG KOMISI,2111,payable,account_type_current_liabilities,FALSE
+211113,211113,[UD] HUTANG BANK,2111,payable,account_type_current_liabilities,FALSE
+2112,2112,[PT] HUTANG ,account_payable,view,account_type_liability_view,FALSE
+211211,211211,[PT] HUTANG DAGANG,2112,payable,account_type_payable,FALSE
+211212,211212,[PT] HUTANG KOMISI,2112,payable,account_type_current_liabilities,FALSE
+211213,211213,[PT] HUTANG BANK,2112,payable,account_type_current_liabilities,FALSE
+2120,2120,UANG MUKA PENJUALAN,liability,view,account_type_liability_view,FALSE
+2121,2121,[UD] UANG MUKA PENJUALAN ,2120,view,account_type_liability_view,FALSE
+212111,212111,[UD] UANG MUKA PENJUALAN,2121,payable,account_type_current_liabilities,FALSE
+2122,2122,[PT] UANG MUKA PENJUALAN ,2120,view,account_type_liability_view,FALSE
+212211,212211,[PT] UANG MUKA PENJUALAN,2122,payable,account_type_current_liabilities,FALSE
+2130,2130,BIAYA MASIH HARUS DIBAYAR,liability,view,account_type_liability_view,FALSE
+2131,2131,[UD] BIAYA MASIH HARUS DIBAYAR ,2130,view,account_type_liability_view,FALSE
+213111,213111,[UD] BIAYA MASIH HARUS DIBAYAR GAJI,2131,payable,account_type_current_liabilities,FALSE
+213112,213112,[UD] BIAYA MASIH HARUS DIBAYAR UTILITIES,2131,payable,account_type_current_liabilities,FALSE
+2132,2132,[PT] BIAYA MASIH HARUS DIBAYAR ,2130,view,account_type_liability_view,FALSE
+213211,213211,[PT] BIAYA MASIH HARUS DIBAYAR GAJI,2132,payable,account_type_current_liabilities,FALSE
+213212,213212,[PT] BIAYA MASIH HARUS DIBAYAR UTILITIES,2132,payable,account_type_current_liabilities,FALSE
+2140,2140,HUTANG LEASING,liability,view,account_type_liability_view,FALSE
+2141,2141,[UD] HUTANG LEASING ,2140,view,account_type_liability_view,FALSE
+214111,214111,[UD] HUTANG LEASING BANGUNAN,2140,payable,account_type_current_liabilities,FALSE
+214112,214112,[UD] HUTANG LEASING KENDARAAN,2140,payable,account_type_current_liabilities,FALSE
+214113,214113,[UD] HUTANG LEASING MESIN/ALAT BERAT,2140,payable,account_type_current_liabilities,FALSE
+2142,2142,[PT] HUTANG LEASING ,liability,view,account_type_liability_view,FALSE
+214211,214211,[PT] HUTANG LEASING BANGUNAN,2142,payable,account_type_current_liabilities,FALSE
+214212,214212,[PT] HUTANG LEASING KENDARAAN,2142,payable,account_type_current_liabilities,FALSE
+214213,214213,[PT] HUTANG LEASING MESIN/ALAT BERAT,2142,payable,account_type_current_liabilities,FALSE
+2150,2150,PAYABLE TAX,liability,view,account_type_liability_view,FALSE
+215111,215111,[PT] PPN KELUARAN ,2150,payable,account_type_current_liabilities,FALSE
+215112,215112,[PT] PPH 4(2),2150,payable,account_type_current_liabilities,TRUE
+215113,215113,[PT] PPH 21,2150,payable,account_type_current_liabilities,TRUE
+215114,215114,[PT] PPH 22,2150,payable,account_type_current_liabilities,TRUE
+215115,215115,[PT] PPH 23,2150,payable,account_type_current_liabilities,TRUE
+215116,215116,[PT] PPH 25,2150,payable,account_type_current_liabilities,TRUE
+215117,215117,[PT] PPH 29,2150,payable,account_type_current_liabilities,TRUE
+equity,3000,EKUITAS,ID0,view,account_type_equity,FALSE
+3110,3110,EKUITAS,equity,view,account_type_equity,FALSE
+3111,3111,[UD] EKUITAS ,3110,view,account_type_equity,FALSE
+311111,311111,[UD] MODAL PEMEGANG SAHAM ,3111,other,account_type_equity,FALSE
+311112,311112,[UD] RUGI LABA DITAHAN ,3111,other,account_type_equity,FALSE
+311113,311113,[UD] PRIVE PAK JUNAIDY ,3111,other,account_type_equity,FALSE
+311114,311114,[UD] PRIVE PAK JOHAN ,3111,other,account_type_equity,FALSE
+3112,3112,[PT] EKUITAS ,3110,view,account_type_equity,FALSE
+311211,311211,[PT] MODAL PEMEGANG SAHAM ,3112,other,account_type_equity,FALSE
+311212,311212,[PT] RUGI LABA DITAHAN ,3112,other,account_type_equity,FALSE
+income,4000,PENJUALAN,ID0,view,account_type_income_view,FALSE
+4110,4110,PENJUALAN,income,view,account_type_income_view,FALSE
+4111,4111,[UD] PENJUALAN ,4110,view,account_type_income_view,FALSE
+411111,411111,[UD] PENJUALAN ,4111,other,account_type_income,FALSE
+4112,4112,[PT] PENJUALAN ,4110,view,account_type_income_view,FALSE
+411211,411211,[PT] PENJUALAN ,4112,other,account_type_income,FALSE
+4120,4120,DISCOUNT PENJUALAN,income,view,account_type_income_view,FALSE
+4121,4121,[UD] DISKON PENJUALAN ,4120,view,account_type_income_view,FALSE
+412111,412111,[UD] DISKON PENJUALAN ,4121,other,account_type_income,FALSE
+4122,4122,[PT] DISKON PENJUALAN ,4120,view,account_type_income_view,FALSE
+412211,412211,[PT] DISKON PENJUALAN ,4122,other,account_type_income,FALSE
+cogs,5000,HARGA POKOK PENJUALAN,ID0,view,account_type_income_view,FALSE
+5110,5110,HARGA POKOK PENJUALAN,cogs,view,account_type_income_view,FALSE
+5111,5111,[UD] HARGA POKOK PENJUALAN ,5110,view,account_type_cogs,FALSE
+511111,511111,[UD] HARGA POKOK PENJUALAN ,5111,other,account_type_cogs,FALSE
+5112,5112,[PT] HARGA POKOK PENJUALAN ,5110,view,account_type_cogs,FALSE
+511211,511211,[PT] HARGA POKOK PENJUALAN ,5112,other,account_type_cogs,FALSE
+5210,5210,BIAYA FREIGHT,cogs,view,account_type_cogs,FALSE
+5211,5211,[UD] BIAYA FREIGHT ,5210,view,account_type_cogs,FALSE
+521111,521111,[UD] FREIGHT IN CONTAINER ,5211,other,account_type_cogs,FALSE
+5212,5212,[PT] BIAYA FREIGHT ,5210,view,account_type_cogs,FALSE
+521112,521112,[PT] FREIGHT IN CONTAINER ,5212,other,account_type_cogs,FALSE
+expense,6000,BIAYA OPERASIONAL,ID0,view,account_type_expense_view,FALSE
+6110,6110,BIAYA GAJI DAN TUNJANGAN,expense,view,account_type_expense_view,FALSE
+6111,6111,[UD] BIAYA GAJI DAN TUNJANGAN ,6110,view,account_type_expense_view,FALSE
+611111,611111,[UD] BIAYA GAJI ,6111,other,account_type_expense,FALSE
+611112,611112,[UD] BIAYA LEMBUR,6111,other,account_type_expense,FALSE
+611113,611113,[UD] BIAYA TUNJANGAN,6111,other,account_type_expense,FALSE
+611114,611114,[UD] BIAYA INSENTIF,6111,other,account_type_expense,FALSE
+611115,611115,[UD] BIAYA THR,6111,other,account_type_expense,FALSE
+611116,611116,[UD] BIAYA UANG JASA ,6111,other,account_type_expense,FALSE
+611117,611117,[UD] BIAYA MEDIS,6111,other,account_type_expense,FALSE
+6112,6112,[PT] BIAYA GAJI DAN TUNJANGAN ,6110,view,account_type_expense_view,FALSE
+611211,611211,[PT] BIAYA GAJI ,6112,other,account_type_expense,FALSE
+611212,611212,[PT] BIAYA LEMBUR,6112,other,account_type_expense,FALSE
+611213,611213,[PT] BIAYA TUNJANGAN,6112,other,account_type_expense,FALSE
+611214,611214,[PT] BIAYA INSENTIF,6112,other,account_type_expense,FALSE
+611215,611215,[PT] BIAYA THR,6112,other,account_type_expense,FALSE
+611216,611216,[PT] BIAYA UANG JASA ,6112,other,account_type_expense,FALSE
+611217,611217,[PT] BIAYA MEDIS,6112,other,account_type_expense,FALSE
+6120,6120,BIAYA UTILITIES,expense,view,account_type_expense_view,FALSE
+6121,6121,[UD] BIAYA UTILITIES ,6120,view,account_type_expense,FALSE
+612111,612111,[UD] BIAYA LISTRIK,6121,other,account_type_expense,FALSE
+612112,612112,[UD] BIAYA AIR ,6121,other,account_type_expense,FALSE
+612113,612113,[UD] BIAYA INTERNET,6121,other,account_type_expense,FALSE
+612114,612114,[UD] BIAYA TELEPON,6121,other,account_type_expense,FALSE
+612115,612115,[UD] BIAYA SERVICE CHARGE,6121,other,account_type_expense,FALSE
+6130,6130,BIAYA TOKO ,expense,view,account_type_expense_view,FALSE
+6131,6131,[UD] BIAYA TOKO ,6130,view,account_type_expense_view,FALSE
+613111,613111,"[UD] BIAYA BBM, TRANSPORT",6131,other,account_type_expense,FALSE
+613112,613112,[UD] BIAYA PENGIRIMAN DAN EKSPEDISI,6131,other,account_type_expense,FALSE
+613113,613113,"[UD] BIAYA KULI, BONGKAR MUAT",6131,other,account_type_expense,FALSE
+613114,613114,[UD] BIAYA IKLAN,6131,other,account_type_expense,FALSE
+613115,613115,"[UD] BIAYA IURAN KEAMANAN, KEBERSIHAN",6131,other,account_type_expense,FALSE
+6132,6132,[PT] BIAYA TOKO ,6131,view,account_type_expense_view,FALSE
+613211,613211,"[PT] BIAYA BBM, TRANSPORT",6130,other,account_type_expense,FALSE
+613212,613212,[PT] BIAYA PENGIRIMAN DAN EKSPEDISI,6132,other,account_type_expense,FALSE
+613213,613213,"[PT] BIAYA KULI, BONGKAR MUAT",6132,other,account_type_expense,FALSE
+613214,613214,[PT] BIAYA IKLAN,6132,other,account_type_expense,FALSE
+613215,613215,"[PT] BIAYA IURAN KEAMANAN, KEBERSIHAN",6132,other,account_type_expense,FALSE
+6140,6140,BIAYA KANTOR,expense,view,account_type_expense_view,FALSE
+6141,6141,[UD] BIAYA KANTOR ,6140,view,account_type_expense_view,FALSE
+614111,614111,[UD] BIAYA PERJALANAN DINAS ,6141,other,account_type_expense,FALSE
+614112,614112,[UD] BIAYA KEPERLUAN KANTOR  ,6141,other,account_type_expense,FALSE
+614113,614113,[UD] BIAYA KONSUMSI ,6141,other,account_type_expense,FALSE
+614114,614114,[UD] BIAYA SUMBANGAN ,6141,other,account_type_expense,FALSE
+614115,614115,[UD] BIAYA ENTERTAIN ,6141,other,account_type_expense,FALSE
+614116,614116,"[UD] BIAYA ATK, FOTOCOPY ",6141,other,account_type_expense,FALSE
+614117,614117,[UD] BIAYA METERAI ,6141,other,account_type_expense,FALSE
+614118,614118,[UD] BIAYA JASA PELATIHAN ,6141,other,account_type_expense,FALSE
+614119,614119,"[UD] BIAYA LEGALITAS, PERIJINAN ",6141,other,account_type_expense,FALSE
+614120,614120,[UD] BIAYA KONSULTAN ,6141,other,account_type_expense,FALSE
+6142,6142,[PT] BIAYA KANTOR ,6140,view,account_type_expense_view,FALSE
+614211,614211,[PT] BIAYA PERJALANAN DINAS,6142,other,account_type_expense,FALSE
+614212,614212,[PT] BIAYA KEPERLUAN KANTOR ,6142,other,account_type_expense,FALSE
+614213,614213,[PT] BIAYA KONSUMSI,6142,other,account_type_expense,FALSE
+614214,614214,[PT] BIAYA SUMBANGAN,6142,other,account_type_expense,FALSE
+614215,614215,[PT] BIAYA ENTERTAIN,6142,other,account_type_expense,FALSE
+614216,614216,"[PT] BIAYA ATK, FOTOCOPY",6142,other,account_type_expense,FALSE
+614217,614217,[PT] BIAYA METERAI,6142,other,account_type_expense,FALSE
+614218,614218,[PT] BIAYA JASA PELATIHAN,6142,other,account_type_expense,FALSE
+614219,614219,"[PT] BIAYA LEGALITAS, PERIJINAN",6142,other,account_type_expense,FALSE
+614220,614220,[PT] BIAYA KONSULTAN,6142,other,account_type_expense,FALSE
+6150,6150,BIAYA SEWA,expense,view,account_type_expense_view,FALSE
+6151,6151,[UD] BIAYA SEWA ,6150,view,account_type_expense_view,FALSE
+615111,615111,[UD] BIAYA SEWA BANGUNAN ,6151,other,account_type_expense,FALSE
+615112,615112,[UD] BIAYA SEWA KENDARAAN ,6151,other,account_type_expense,FALSE
+615113,615113,[UD] BIAYA SEWA MESIN/ALAT BERAT ,6151,other,account_type_expense,FALSE
+6152,6152,[PT] BIAYA SEWA ,expense,view,account_type_expense_view,FALSE
+615211,615211,[PT] BIAYA SEWA BANGUNAN ,6152,other,account_type_expense,FALSE
+615212,615212,[PT] BIAYA SEWA KENDARAAN ,6152,other,account_type_expense,FALSE
+615213,615213,[PT] BIAYA SEWA MESIN/ALAT BERAT ,6152,other,account_type_expense,FALSE
+6160,6160,BIAYA PEMELIHARAAN,expense,view,account_type_expense_view,FALSE
+6161,6161,[UD] BIAYA PEMELIHARAAN ,6160,view,account_type_expense_view,FALSE
+616111,616111,[UD] BIAYA PEMELIHARAAN BANGUNAN ,6161,other,account_type_expense,FALSE
+616112,616112,[UD] BIAYA PEMELIHARAAN KENDARAAN ,6161,other,account_type_expense,FALSE
+616113,616113,[UD] BIAYA PEMELIHARAAN MESIN ,6161,other,account_type_expense,FALSE
+616114,616114,[UD] BIAYA PEMELIHARAAN INVENTARIS  ,6161,other,account_type_expense,FALSE
+6162,6162,[PT] BIAYA PEMELIHARAAN ,6160,view,account_type_expense_view,FALSE
+616211,616211,[PT] BIAYA PEMELIHARAAN BANGUNAN ,6162,other,account_type_expense,FALSE
+616212,616212,[PT] BIAYA PEMELIHARAAN KENDARAAN ,6162,other,account_type_expense,FALSE
+616213,616213,[PT] BIAYA PEMELIHARAAN MESIN ,6162,other,account_type_expense,FALSE
+616214,616214,[PT] BIAYA PEMELIHARAAN INVENTARIS  ,6162,other,account_type_expense,FALSE
+6170,6170,BIAYA PENYUSUTAN,expense,view,account_type_expense_view,FALSE
+6171,6171,[UD] BIAYA PENYUSUTAN ,6170,view,account_type_expense_view,FALSE
+617111,617111,[UD] BIAYA PENYUSUTAN BANGUNAN ,6171,other,account_type_expense,FALSE
+617112,617112,[UD] BIAYA PENYUSUTAN KENDARAAN ,6171,other,account_type_expense,FALSE
+617113,617113,[UD] BIAYA PENYUSUTAN MESIN ,6171,other,account_type_expense,FALSE
+617114,617114,[UD] BIAYA PENYUSUTAN PERALATAN ,6171,other,account_type_expense,FALSE
+617115,617115,[UD] BIAYA PENYUSUTAN INVENTARIS ,6171,other,account_type_expense,FALSE
+6172,6172,[PT] BIAYA PENYUSUTAN ,6170,view,account_type_expense_view,FALSE
+671211,671211,[PT] BIAYA PENYUSUTAN BANGUNAN ,6172,other,account_type_expense,FALSE
+671212,671212,[PT] BIAYA PENYUSUTAN KENDARAAN ,6172,other,account_type_expense,FALSE
+671213,671213,[PT] BIAYA PENYUSUTAN MESIN ,6172,other,account_type_expense,FALSE
+671214,671214,[PT] BIAYA PENYUSUTAN PERALATAN ,6172,other,account_type_expense,FALSE
+671215,671215,[PT] BIAYA PENYUSUTAN INVENTARIS ,6172,other,account_type_expense,FALSE
+other_income,7000,PENDAPATAN LAIN-LAIN,ID0,view,account_type_other_income,FALSE
+base_miscincome,7110,PENDAPATAN LAIN-LAIN,other_income,view,account_type_other_income,FALSE
+7111,7111,[UD] PENDAPATAN LAINLAIN ,base_miscincome,view,account_type_other_income,FALSE
+711111,711111,[UD] PENDAPATAN LAIN-LAIN ,7111,other,account_type_other_income,FALSE
+711112,711112,[UD] PENDAPATAN JASA GIRO ,7111,other,account_type_other_income,FALSE
+7112,7112,[PT] PENDAPATAN LAINLAIN ,7111,view,account_type_other_income,FALSE
+711211,711211,[PT] PENDAPATAN LAIN-LAIN ,base_miscincome,other,account_type_other_income,FALSE
+711212,711212,[PT] PENDAPATAN JASA GIRO ,7112,other,account_type_other_income,FALSE
+other_expense,8000,BIAYA LAIN-LAIN,ID0,view,account_type_other_expense,FALSE
+base_miscexpense,8110,BIAYA LAIN-LAIN,other_expense,view,account_type_other_expense,FALSE
+8111,8111,[UD] BIAYA LAINLAIN ,base_miscexpense,view,account_type_other_expense,FALSE
+811111,811111,[UD] BIAYA LAIN-LAIN ,8111,other,account_type_other_expense,FALSE
+811112,811112,[UD] BIAYA ADMIN BANK ,8111,other,account_type_other_expense,FALSE
+8112,8112,[PT] BIAYA LAINLAIN ,base_miscexpense,view,account_type_other_expense,FALSE
+811211,811211,[PT] BIAYA LAIN-LAIN ,8111,other,account_type_other_expense,FALSE
+811212,811212,[PT] BIAYA ADMIN BANK ,8111,other,account_type_other_expense,FALSE

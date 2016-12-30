@@ -1,0 +1,4 @@
+id,name,chart_template_id:id
+l10n_id_position_1,Standar Tax (PPN),l10n_id
+l10n_id_position_2,Without Tax (Non-PPN),l10n_id
+l10n_id_position_3,Tax IMPORT / EXPORT (0%),l10n_id

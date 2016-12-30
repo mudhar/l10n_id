@@ -1,0 +1,18 @@
+id,name,code,report_type,close_method
+account_type_current_assets,Current Assets,Current Assets,asset,Balance
+account_type_current_liabilities,Current Liabilities,Current Liabilities,liability,Unreconciled
+account_type_equity,Equity,Equity,liability,Balance
+account_type_expense,Expense,Expense,expense,None
+account_type_income,Income,Income,income,None
+account_type_payable,Payable,Payable,liability,Unreconciled
+account_type_receivable,Receivable,Receivable,asset,Unreconciled
+account_type_cogs,Cost Of Goods Sold,Cogs,expense,None
+account_type_view,View,view,none,None
+account_type_other_income,Other Income,Other-Income,income,None
+account_type_other_expense,Other Expense,Other-Expense,expense,None
+account_type_expense_view,Expense View,Expense-View,none,None
+account_type_income_view,Income View,Income-View,none,None
+account_type_liability_view,Liability View,Liability-View,none,None
+account_type_asset_view,Asset View,Asset-View,none,None
+account_type_cash,Cash,Cash,asset,Balance
+account_type_bank,Bank,Bank,asset,Balance
